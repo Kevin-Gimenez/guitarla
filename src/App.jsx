@@ -31,7 +31,7 @@ function App() {
             ...item, 
             quantity: item.quantity - 1
                 }
-                }
+                } 
             return item
         })
         setCart(updatedCart)
